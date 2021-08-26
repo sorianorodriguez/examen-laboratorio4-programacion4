@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>formulario</title>
+<style type="text/css">
+body{background-image: url("Fondo2.jpg");}
+*{font-family:arial;}
+h1{text-align: center;
+font-size: 1.2em;
+text-decoration: underline;}
+form{text-align: center;}
+
+div{border-style: solid;
+border-color:green;
+border-width: 0.2em;
+margin-top: 2em;
+margin-left: 10em;
+margin-right: 10em;}
+</style>
+</head>
+<body>
+<br>
+<h1>llenar el siguiente formulario</h1>
+<h1>para reservar matricula</h1>
+<br>
+<form name="formulario">
+
+<spam>nombre</spam><input type="text" id="nombre" placeholder="primer nombre" maxlength="15">
+<spam>apellido</spam><input type="text" id="apell" placeholder="primer apellido" maxlength="15">
+<br>
+<br>
+<spam>id</spam><input type="text" id="id" placeholder="# de identidad" maxlength="15">
+<br>
+<br>
+<spam>sexo:</spam>
+<spam>femenino</spam><input type="radio" id="femenino">
+<spam>masculino</spam><input type="radio" id="masculino"><br>
+<br>
+<input type="button" onclick="activar()" value="enviar">
+</form>
+</script>
+
+<p><a href="index.html"><b>pagina principal</b></a>
+</p>
+</body>
+</html>
